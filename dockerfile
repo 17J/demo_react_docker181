@@ -1,8 +1,8 @@
 FROM node
 
-WORKDIR /myreactapp
+WORKDIR /myreactapps
 
-COPY . ./myreactapp/
+COPY . ./myreactapps
 
 RUN npm install
 
